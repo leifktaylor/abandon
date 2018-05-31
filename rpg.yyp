@@ -111,6 +111,14 @@
             }
         },
         {
+            "Key": "14a4df75-6da6-4e4a-9b34-d29adf069b8f",
+            "Value": {
+                "id": "00c51ebd-44d0-4ee0-a644-b912bfbbbece",
+                "resourcePath": "objects\\o_roomshader\\o_roomshader.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1508e255-beb0-495e-a2d7-dfa22e80e3c1",
             "Value": {
                 "id": "472ee78f-ae69-4c6c-869f-91dfed7f36cc",
