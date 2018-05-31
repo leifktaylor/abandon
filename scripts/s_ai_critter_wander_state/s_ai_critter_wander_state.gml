@@ -1,9 +1,8 @@
-s_ai_check_for_player();
-
-
-s_move_to_coords(target_x, target_y, spd_wander);
-//if (alarm[0] <= 0) {
-//	s_ai_choose_next_state();
-//} else {
-//	s_move_to_coords(target_x, target_y, spd);
-//}
+timer_idle -= 1;
+if (timer_idle <= 0)
+{
+	timer_idle = irandom_range(idle_min, idle_max);
+	target_x = random(room_width);
+	target_y = random(room_height);
+}
+s_move_to_coords(target_x, target_y, spd);

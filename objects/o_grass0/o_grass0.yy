@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "o_grass0",
     "eventList": [
-        
+        {
+            "id": "99e2534c-e27b-40e3-bc06-600c20603866",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "537f53d1-f6eb-4d8e-a6a2-830c48c1190c"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

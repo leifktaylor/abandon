@@ -583,6 +583,14 @@
             }
         },
         {
+            "Key": "8eaf7168-3c8c-4ccc-9079-69ad346923b0",
+            "Value": {
+                "id": "d78391e7-a95f-4806-bc29-90b2450bb16c",
+                "resourcePath": "objects\\o_tree2\\o_tree2.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "951785d7-53ed-41da-a156-ecf2a440ea74",
             "Value": {
                 "id": "86a0324f-b638-4d13-b336-d2573b72bf51",
@@ -636,6 +644,14 @@
                 "id": "7a73e49b-4ada-49f7-9ce7-97c65aded870",
                 "resourcePath": "datafiles_yy\\spr_critter_firefly\\c0114ed9-d604-4cc2-9607-803cb1246f50.png.yy",
                 "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "a4454f1c-4fcf-40e7-9e34-160ff8e7be47",
+            "Value": {
+                "id": "908db2d6-e1f7-475d-90ac-fdab46ab653c",
+                "resourcePath": "objects\\o_tree3\\o_tree3.yy",
+                "resourceType": "GMObject"
             }
         },
         {

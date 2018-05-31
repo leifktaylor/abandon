@@ -40,10 +40,10 @@ UP = 1;
 LEFT = 2;
 DOWN = 3;
 face = RIGHT;
-sprint_max = .5;
+sprint_max = .9;
 sprint_current = 0;
-sprint_acceleration = .01;
-sprint_delay = 100;
+sprint_acceleration = .005;
+sprint_delay = 60;
 
 // Switches / timers
 switch_attacked = false;

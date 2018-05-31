@@ -1,12 +1,14 @@
 /// @description Insert description here
 // You can write your code in this editor
 hostile = false;
-spd = .5;
+spd = .1;
 
 // state
-state_base = s_ai_idle_state;
-state = state_base;
-timer_idle = 25;
+idle_min = 100;
+idle_max = 400;
+timer_idle = 200;
+target_x = 0;
+target_y = 0;
 
 //
 debug_messages = false;
