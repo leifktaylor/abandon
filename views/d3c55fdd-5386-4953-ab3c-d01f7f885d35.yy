@@ -8,10 +8,10 @@
         "e81092d9-8910-44db-aed3-b7f615a3befd",
         "162e5e58-2b98-4447-b35d-4800a4a063b3",
         "8352a412-2794-4d94-9745-76f40e022441",
-        "d84dfbb6-a21a-439c-83f8-aa5f694429d0",
-        "30bb3319-13fa-4ead-8f10-a32726c3367d",
-        "ae9506bd-6c04-4887-a65d-771345768611",
-        "1d36202c-6000-46b8-b90d-5bad8aecb4e0"
+        "6fa62c2d-3657-49fd-9370-ea0eb11ea349",
+        "3cab2e2b-89c3-4d53-a900-4dfe6a8c1207",
+        "f1dafbbf-0534-4a96-b8ac-051ac2555103",
+        "220c8a0f-2152-46e6-b028-431fb4b81a21"
     ],
     "filterType": "GMSprite",
     "folderName": "s_players",
