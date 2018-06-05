@@ -63,6 +63,11 @@ sight = 128;
 target_x = 0;
 target_y = 0;
 target_o = noone;
+
+// faction settings
+// @param faction - will not attack enemies of same faction, even if hostile
+// @param hostile - will attack targets not of same faction
+faction = 0;
 hostile = false;
 
 // Hud
@@ -75,3 +80,4 @@ healthbar_o.owner = id;
 
 // Debug
 debug_messages = false;
+

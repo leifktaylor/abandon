@@ -5,10 +5,16 @@ image_speed = stats_atk_speed;
 if (s_is_animation_frame(2))
 {
 	// Get Direction
-	var anim_dir = point_direction(0, 0, xaxis, yaxis);
+	if (rxaxis != 0 or ryaxis != 0)
+	{
+		var anim_dir = point_direction(0, 0, rxaxis, ryaxis);
+	} else {
+		var anim_dir = point_direction(0, 0, xaxis, yaxis);
+	}
 	var anim_depth = depth;
 	var ax;
 	var ay;
+	face = s_get_face(anim_dir);
 	switch (face)
 	{
 		case 0:
@@ -39,21 +45,21 @@ if (s_is_animation_frame(2))
 }
 
 // Handle player animation
-switch (sprite_index) 
+switch (face) 
 {
-	case sprite_up:
+	case 1:
 		sprite_index = sprite_a_up;
 		break;
 		
-	case sprite_down:
+	case 3:
 		sprite_index = sprite_a_down;
 		break;
 		
-	case sprite_left:
+	case 2:
 		sprite_index = sprite_a_left;
 		break;
 		
-	case sprite_right:
+	case 0:
 		sprite_index = sprite_a_right;
 		break;
 }
@@ -61,9 +67,14 @@ switch (sprite_index)
 if (s_is_animation_frame(3))
 {
 	// Create Damage Object
-	var anim_dir = point_direction(0, 0, xaxis, yaxis);
-	var xx = lengthdir_x(stats_attack_reach, anim_dir);
-	var yy = lengthdir_y(stats_attack_reach, anim_dir);
+	if (rxaxis == 0 and ryaxis == 0)
+	{
+		var dmg_dir = point_direction(0, 0, xaxis, yaxis);
+	} else {
+		var dmg_dir = point_direction(0, 0, rxaxis, ryaxis);
+	}
+	var xx = lengthdir_x(stats_attack_reach, dmg_dir);
+	var yy = lengthdir_y(stats_attack_reach, dmg_dir);
 	show_debug_message("Creating Damage object");
 	var damage_o = instance_create_depth(x + xx, y + yy, depth, o_damage);	
 	damage_o.creator = id;
@@ -72,6 +83,10 @@ if (s_is_animation_frame(3))
 	damage_o.owner = id
 }
 
+
+s_get_input();
+s_control_crosshair();
+_s_player_move(spd * .5);
 
 // timer_attack -= 1;
 // if (timer_attack <= 0)

@@ -12,6 +12,9 @@ target = o_player;
 spd = .4;
 spd_chase = 1.5;
 
+// faction
+faction = 0;
+sight = 128;
 
 // state
 state_base = s_ai_idle_state;

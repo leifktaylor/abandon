@@ -1,23 +1,7 @@
 /// @Description Get Input
 
-// Get Direction
-dir = point_direction(0, 0, xaxis, yaxis);
-
-// Get length
-if (xaxis == 0 and yaxis == 0)
-{
-	len = 0;	
-} else {
-	len = (spd + sprint_current);
-	show_debug_message("Total Len: " + string(spd) + " + " + string(sprint_current));
-}
-
-// Move
-hspd = lengthdir_x(len, dir);
-vspd = lengthdir_y(len, dir);
-phy_position_x += hspd;
-phy_position_y += vspd;
-
+// Move game object
+_s_player_move(spd);
 
 // Handle sprite animation
 image_speed = sign(len) * sprite_image_speed;
@@ -27,7 +11,12 @@ if (len == 0)
 	image_index = sprite_image_index_base;
 	image_speed = 0;
 } else {
-	face = s_get_face(dir);
+	if (rxaxis != 0 or ryaxis != 0)
+	{
+		face = s_get_face(point_direction(0, 0, rxaxis, ryaxis));
+	} else {
+		face = s_get_face(dir);
+	}
 	switch (face) 
 	{
 		case RIGHT:
@@ -61,6 +50,10 @@ if (key_range)
 {
 	s_fire_projectile(o_projectile, 10);
 }
+
+// Crosshair
+s_control_crosshair()
+
 
 // DEBUG
 if (keyboard_check(vk_down))
