@@ -3,6 +3,9 @@
 // Inherit Parent Create Event (lifeform)
 event_inherited();
 
+// ai
+sight = 200;
+
 // Init
 key_left = 0;
 key_right = 0;
