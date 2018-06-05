@@ -66,7 +66,6 @@ sprite_a_right = s_player_attack_right;
 sprite_image_speed = .5; 
 sprite_image_index_base = 0;
 sprite_shadow = s_player_shadow;
-sprite_image_blend = c_white;
 
 // Faction (99 is player default faction)
 faction = 99;

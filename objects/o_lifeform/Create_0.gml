@@ -24,7 +24,8 @@ stats_attack_reach = 20;
 sprite_image_speed = .5; 
 sprite_image_index_base = 0;
 sprite_shadow = s_player_shadow;
-sprite_image_blend = c_white;
+image_blend = sprite_hue;
+sprite_image_blend = sprite_hue;
 sprite_base_height = sprite_height;
 sprite_base_width = sprite_width;
 
