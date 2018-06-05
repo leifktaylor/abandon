@@ -1,6 +1,6 @@
 ///Collide
 
-if (other.id != creator)
+if (other.id != creator and other.faction != creator.faction)
 {
 	// Stop playing from sprinting if hit
 	if (other.object_index == o_player)
