@@ -12,6 +12,16 @@ target = o_player;
 spd = .4;
 spd_chase = 1.5;
 
+// Visuals (required)
+sprite_up = s_slime0;
+sprite_down = s_slime0;
+sprite_left = s_slime0;
+sprite_right = s_slime0;
+sprite_a_down = s_slime0;
+sprite_a_up = s_slime0;
+sprite_a_left = s_slime0;
+sprite_a_right = s_slime0;
+
 // faction
 faction = 0;
 sight = 128;

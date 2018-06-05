@@ -17,21 +17,7 @@ if (len == 0)
 	} else {
 		face = s_get_face(dir);
 	}
-	switch (face) 
-	{
-		case RIGHT:
-			sprite_index = sprite_right;
-			break;
-		case UP:
-			sprite_index = sprite_up;
-			break;
-		case LEFT:
-			sprite_index = sprite_left;
-			break;
-		case DOWN:
-			sprite_index = sprite_down;
-			break;
-	}
+	sprite_index = s_get_movement_sprite(face)
 }
 
 // Dash Key

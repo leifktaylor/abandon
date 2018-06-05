@@ -7,7 +7,16 @@ var hspd = lengthdir_x(move_speed, dir);
 var vspd = lengthdir_y(move_speed, dir);
 
 // Flip sprite to face direction moving
-image_xscale = sign(hspd);
+if object_is_ancestor(object_index, o_lifeform)
+{
+	if sprite_left == sprite_right
+	{
+		image_xscale = sign(hspd);
+	} else {
+		var facing = s_get_face(dir)
+		sprite_index = s_get_movement_sprite(facing)	
+	}
+}
 
 
 if (instance_exists(target_object))

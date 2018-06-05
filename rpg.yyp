@@ -175,6 +175,14 @@
             }
         },
         {
+            "Key": "23c30e58-b75f-40a5-afca-36326f5544aa",
+            "Value": {
+                "id": "1da5d8e2-d8e8-4524-8aaf-6c4c9a872a91",
+                "resourcePath": "scripts\\s_get_movement_sprite\\s_get_movement_sprite.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "27e4318c-9db3-4b04-b923-d83ce86543ea",
             "Value": {
                 "id": "8895293c-e1ac-4893-8828-0a67c75f28db",
@@ -1118,6 +1126,7 @@
         "7a167900-5c97-41ba-be7e-6694ec7c7d3a",
         "67f79681-3205-4c9f-af59-64ba72397baa",
         "506bcef7-7c9a-41bb-ad35-a7ab0e5aaee6",
+        "23c30e58-b75f-40a5-afca-36326f5544aa",
         "dbae8f71-a626-43f5-92c6-e027b047a1ef",
         "98357326-245f-4988-b770-5243ce3012b6",
         "52c35cd0-bcfd-4cb2-9f9e-ec26c79d97ce"
