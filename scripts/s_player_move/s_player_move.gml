@@ -3,8 +3,6 @@
 // Move game object
 _s_player_move(spd);
 
-// Handle sprite animation
-image_speed = sign(len) * sprite_image_speed;
 
 if (len == 0)
 {
@@ -19,6 +17,9 @@ if (len == 0)
 	}
 	sprite_index = s_get_movement_sprite(face)
 }
+
+// Handle sprite animation
+image_speed = sign(len) * sprite_image_speed;
 
 // Dash Key
 if (key_dash) {

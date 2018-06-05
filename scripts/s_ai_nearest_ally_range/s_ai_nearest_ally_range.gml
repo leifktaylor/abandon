@@ -7,6 +7,7 @@ var i;
 for (i = 0; i < instance_number(o_lifeform); i += 1)
 {
 	current_lf = instance_find(o_lifeform, i);
+	// Don't count self as nearest ally
 	if current_lf == id
 	{
 		continue;	

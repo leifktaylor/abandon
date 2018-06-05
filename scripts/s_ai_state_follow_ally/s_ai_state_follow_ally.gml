@@ -8,11 +8,15 @@ if instance_exists(ally_o)
 	
 	// Move to target if we're not already too close
 	var max_proximity = 50;
-	if (point_distance(x, y, ally_o.x, ally_o.y) >= max_proximity)
+	if (point_distance(x, y, ally_o.x, ally_o.y) > max_proximity)
 	{
 		// Move to target ally
 		s_move_to_target(ally_o, spd_chase);	
+		return true;
+	} else {
+		return false;	
 	}
 } else {
 	// Do something idle here (no ally in range to follow)
+	return false
 }
