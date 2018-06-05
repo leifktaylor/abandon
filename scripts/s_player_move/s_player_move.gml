@@ -32,13 +32,19 @@ if (key_attack) {
 	state = s_state_player_attack;
 }
 
-// Projectile 
+// Projectile Key
 if (key_range)
 {
 	s_fire_projectile(o_projectile, 10);
 }
 
-// Crosshair
+// Swap Key
+if (key_swap)
+{
+	s_activate_nearest_player();	
+}
+
+// Crosshair Input
 s_control_crosshair()
 
 

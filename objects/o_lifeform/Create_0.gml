@@ -82,3 +82,5 @@ healthbar_o.owner = id;
 // Debug
 debug_messages = false;
 
+// Keys 
+key_swap = 0;

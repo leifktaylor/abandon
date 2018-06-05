@@ -6,6 +6,7 @@ key_down = keyboard_check(ord("S"));
 key_dash = keyboard_check_pressed(ord("J"));
 key_attack = keyboard_check(ord("I"));
 key_range = keyboard_check_pressed(ord("O"));
+key_swap = keyboard_check_pressed(vk_tab);
 
 // Get Axis
 xaxis = key_right - key_left;
@@ -22,6 +23,7 @@ if (gamepad_is_connected(0))
 	key_dash = gamepad_button_check_pressed(0, gp_face1);
 	key_attack = gamepad_button_check(0, gp_shoulderr);
 	key_range = gamepad_button_check_pressed(0, gp_face2);
+	key_swap = gamepad_button_check_pressed(0, gp_face3);
 }
 
 

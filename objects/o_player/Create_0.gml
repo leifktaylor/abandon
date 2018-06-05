@@ -56,6 +56,7 @@ spd_chase = spd * 2;
 //Timers
 timer_stun = 0;
 timer_dash = 0;
+timer_transition = 10;
 
 // Visuals (required)
 sprite_up = s_player_up;

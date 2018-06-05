@@ -1,4 +1,4 @@
-///s_check_for_player()
+///s_ai_check_for_player()
 
 var targ_o = o_player;
 var nearest_o = noone;
