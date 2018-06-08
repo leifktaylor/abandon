@@ -1,4 +1,8 @@
 ///s_move_to_coords(x, y, spd)
+///@param x
+///@param y
+///@param spd
+
 var xx = argument0;
 var yy = argument1;
 var m_speed = argument2;

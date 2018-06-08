@@ -2,6 +2,7 @@
 // You can write your code in this editor
 event_inherited()
 
+name = "Slime";
 stats_hp_current = 10;
 stats_hp_max = 10;
 stats_atk_phys = 1;
@@ -26,9 +27,23 @@ sprite_a_right = s_slime0;
 faction = 0;
 sight = 128;
 
-// state
-state_base = s_ai_idle_state;
+/// Gambits
+gambits[0, 0] = s_gc_enemy_lowest_hp;
+gambits[0, 1] = s_ga_attack;
+
+// sight / targetting
+state_attack = s_ai_attack_normal;
+sight = 128;
+sight_attack_range = 50;
+target_x = 0;
+target_y = 0;
+target_o = noone;
+
+// states
+state_base = s_ai_gambit_idle;
 state = state_base;
+// action
+state_idle = s_ai_wander;
 
 // counters
 // alarm[0] = room_speed * irandom_range(2, 5);

@@ -26,10 +26,11 @@ state = state_base;
 crosshair_o = noone;
 
 // Stats
-stats_hp_max = 15;
+name = "Player" + string(id);
+stats_hp_max = 20;
 stats_hp_current = stats_hp_max;
-stats_atk_phys = 3;
-stats_atk_mag = 3;
+stats_atk_phys = 4;
+stats_atk_mag = 4;
 stats_atk_speed = .7;
 stats_crit_chance = .1;
 stats_crit_multi = 2;

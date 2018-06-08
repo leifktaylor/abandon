@@ -1,4 +1,6 @@
 ///s_move_to_target(target_object, speed)
+///@param target_object
+///@param speed
 
 var target_object = argument0;
 var move_speed = argument1;

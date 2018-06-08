@@ -10,9 +10,7 @@
         "14a16c72-be1c-4c29-9342-fc99f855c5df",
         "1ba1bd68-decf-4e8c-a33f-d700454d268e",
         "82b1053e-0c1c-475a-a284-e0a1ee52f61b",
-        "2efcb73e-29c3-4fa4-9344-e1389443c549",
-        "658109c2-65c8-43bc-8d1b-2478c5da62ef",
-        "5de49602-2f80-48c3-89be-8af342e7c4e5"
+        "2efcb73e-29c3-4fa4-9344-e1389443c549"
     ],
     "filterType": "GMScript",
     "folderName": "ai_scripts",

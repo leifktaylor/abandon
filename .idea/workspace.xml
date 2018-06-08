@@ -2,7 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e290bbfb-dfe5-4131-839e-c98b84da84f6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CAMPAIGN.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CAMPAIGN.md" afterPath="$PROJECT_DIR$/CAMPAIGN.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/objects/o_lifeform/Create_0.gml" afterPath="$PROJECT_DIR$/objects/o_lifeform/Create_0.gml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/objects/o_lifeform/o_lifeform.yy" afterPath="$PROJECT_DIR$/objects/o_lifeform/o_lifeform.yy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/objects/o_player/Create_0.gml" afterPath="$PROJECT_DIR$/objects/o_player/Create_0.gml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/objects/o_slime0/Create_0.gml" afterPath="$PROJECT_DIR$/objects/o_slime0/Create_0.gml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rpg.yyp" afterPath="$PROJECT_DIR$/rpg.yyp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/s_move_to_coords/s_move_to_coords.gml" afterPath="$PROJECT_DIR$/scripts/s_move_to_coords/s_move_to_coords.gml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/s_move_to_target/s_move_to_target.gml" afterPath="$PROJECT_DIR$/scripts/s_move_to_target/s_move_to_target.gml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/0918e39a-ffe5-4997-aed4-3abc78493d7f.yy" afterPath="$PROJECT_DIR$/views/0918e39a-ffe5-4997-aed4-3abc78493d7f.yy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/3d2b9c18-75f2-48fe-b6c0-ee2feef678a7.yy" afterPath="$PROJECT_DIR$/views/3d2b9c18-75f2-48fe-b6c0-ee2feef678a7.yy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/60bfb84e-85f8-47c4-9669-d28370b96f3f.yy" afterPath="$PROJECT_DIR$/views/60bfb84e-85f8-47c4-9669-d28370b96f3f.yy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/e00a5a75-d92f-4f70-8b10-90129662b477.yy" afterPath="$PROJECT_DIR$/views/e00a5a75-d92f-4f70-8b10-90129662b477.yy" />
     </list>
     <ignored path="abandon.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -71,8 +83,8 @@
         <entry file="file://$PROJECT_DIR$/CAMPAIGN.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="527">
-                <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
+              <first_editor relative-caret-position="830">
+                <caret line="61" column="26" selection-start-line="61" selection-start-column="26" selection-end-line="61" selection-end-column="26" />
                 <folding />
               </first_editor>
               <second_editor>
@@ -135,7 +147,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -156,6 +167,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -328,7 +340,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2" y="28" width="1924" height="1080" extended-state="1" />
+    <frame x="-2" y="28" width="1924" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20881426" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -366,6 +378,64 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/scripts/s_player_move/s_player_move.gml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/objects/o_camera/Step_0.gml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/objects/o_camera/Create_0.gml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CAMPAIGN.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="527">
+            <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
+            <folding />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/s_player_move/s_player_move.yy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/s_player_move/s_player_move.gml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -472,8 +542,8 @@
     <entry file="file://$PROJECT_DIR$/CAMPAIGN.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="527">
-            <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
+          <first_editor relative-caret-position="830">
+            <caret line="61" column="26" selection-start-line="61" selection-start-column="26" selection-end-line="61" selection-end-column="26" />
             <folding />
           </first_editor>
           <second_editor>

@@ -7,6 +7,7 @@ state_substate = s_state_null;
 state = state_base;
 
 // Stats template
+name = "Lifeform";
 stats_hp_max = 10;
 stats_hp_current = stats_hp_max;
 stats_atk_phys = 1;
@@ -53,11 +54,30 @@ timer_stun = 0;
 timer_stagger = 0;
 timer_stall = 0;
 timer_hit_recent = 300;
+
 hit_recently = false;
 timer_sprint = sprint_delay;
 stall_delay = 30;
 idle_min = 100;
 idle_max = 400;
+
+// AI
+ai_debug = true;
+
+/// Gambits
+timer_gambit_action_max = 100;
+timer_gambit_action = timer_gambit_action_max;
+timer_wander_max = 200;
+timer_wander = timer_wander_max;
+
+gambits[0, 0] = s_gc_enemy_nearest;
+gambits[0, 1] = s_ga_attack;
+
+// Attack state
+state_attack = s_ai_attack_normal;
+sight_attack_range = 25;
+state_attack_timer_max = 50;
+state_attack_timer = state_attack_timer_max;
 
 // sight / targetting
 sight = 128;
