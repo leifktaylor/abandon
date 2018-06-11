@@ -4,7 +4,7 @@ draw_self();
 
 if ai_debug
 {
-	draw_text_transformed(x, y-40, name, .5, .5, 0);
+	draw_text_transformed(x-25, y-45, name, .5, .5, 0);
 	draw_text_transformed(x, y-30, script_get_name(state), .5, .5, 0);
 	if instance_exists(target_o)
 	{

@@ -32,12 +32,6 @@ if (key_attack) {
 	state = s_state_player_attack;
 }
 
-// Projectile Key
-if (key_range)
-{
-	s_fire_projectile(o_projectile, 10);
-}
-
 // Swap Key
 if (key_swap)
 {

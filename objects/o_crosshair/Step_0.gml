@@ -12,6 +12,8 @@ if collision_circle(x, y, 20, o_slime0, false, true)
 phy_position_x += (target_x - x) * .1;
 phy_position_y += (target_y - y) * .1;
 
+phy_angular_velocity = 80;
+
 
 
 /*

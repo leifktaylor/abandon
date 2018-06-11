@@ -14,6 +14,11 @@ key_down = 0;
 depth = -1;
 image_speed = 0;
 
+
+// Abilities
+var ability1 = instance_create_depth(x, y, 0, o_ability_fireball);
+ability1.owner = id;
+
 if ai_controlled
 { 
 	state_base = s_ai_state_follow_ally;
@@ -29,8 +34,8 @@ crosshair_o = noone;
 name = "Player" + string(id);
 stats_hp_max = 20;
 stats_hp_current = stats_hp_max;
-stats_atk_phys = 4;
-stats_atk_mag = 4;
+stats_atk_phys = 3;
+stats_atk_mag = 3;
 stats_atk_speed = .7;
 stats_crit_chance = .1;
 stats_crit_multi = 2;

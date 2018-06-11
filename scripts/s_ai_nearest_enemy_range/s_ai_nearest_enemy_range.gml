@@ -2,6 +2,7 @@
 ///@param range max range to find ally
 var range = argument0;
 
+/// BUG : Actually returning first enemy found, this needs refactor
 // Actually finds first all within the specified range
 var i;
 for (i = 0; i < instance_number(o_lifeform); i += 1)
