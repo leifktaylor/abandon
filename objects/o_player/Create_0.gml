@@ -65,14 +65,8 @@ timer_dash = 0;
 timer_transition = 10;
 
 // Visuals (required)
-sprite_up = s_player_up;
-sprite_down = s_player_down;
-sprite_left = s_player_left;
-sprite_right = s_player_right;
-sprite_a_down = s_player_attack_down;
-sprite_a_up = s_player_attack_up;
-sprite_a_left = s_player_attack_left;
-sprite_a_right = s_player_attack_right;
+movement_sprites = [s_player_right, s_player_up, s_player_left, s_player_down];
+attack_sprites = [s_player_attack_right, s_player_attack_up, s_player_attack_left, s_player_attack_down];
 sprite_image_speed = .5; 
 sprite_image_index_base = 0;
 sprite_shadow = s_player_shadow;

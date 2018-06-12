@@ -10,6 +10,9 @@ timer_idle = 200;
 target_x = 0;
 target_y = 0;
 
+// sprites
+movement_sprites = [spr_firefly, spr_firefly, spr_firefly, spr_firefly];
+
 //
 debug_messages = false;
 sight = 0;

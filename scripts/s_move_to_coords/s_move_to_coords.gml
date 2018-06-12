@@ -11,7 +11,10 @@ var hspd = lengthdir_x(m_speed, dir);
 var vspd = lengthdir_y(m_speed, dir);
 
 // Flip sprite to face direction moving
-image_xscale = sign(hspd);
+if movement_sprites[0] == movement_sprites[2]
+{
+	image_xscale = sign(hspd);
+}
 
 // Move self
 phy_position_x += hspd;

@@ -45,24 +45,28 @@ if (s_is_animation_frame(2))
 }
 
 // Handle player animation
+/*
 switch (face) 
 {
-	case 1:
-		sprite_index = sprite_a_up;
+	case 0:
+		sprite_index = sprite_a_right;
 		break;
 		
-	case 3:
-		sprite_index = sprite_a_down;
+	case 1:
+		sprite_index = sprite_a_up;
 		break;
 		
 	case 2:
 		sprite_index = sprite_a_left;
 		break;
 		
-	case 0:
-		sprite_index = sprite_a_right;
+	case 3:
+		sprite_index = sprite_a_down;
 		break;
+		
 }
+*/
+sprite_index = attack_sprites[face];
 
 if (s_is_animation_frame(3))
 {

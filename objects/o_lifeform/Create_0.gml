@@ -64,7 +64,7 @@ idle_min = 100;
 idle_max = 400;
 
 // AI
-ai_debug = true;
+ai_debug = false;
 
 /// Gambits
 timer_gambit_action_max = 100;

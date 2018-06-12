@@ -11,7 +11,7 @@ var vspd = lengthdir_y(move_speed, dir);
 // Flip sprite to face direction moving
 if object_is_ancestor(object_index, o_lifeform)
 {
-	if sprite_left == sprite_right
+	if movement_sprites[0] == movement_sprites[2]
 	{
 		image_xscale = sign(hspd);
 	} else {
