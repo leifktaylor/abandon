@@ -1,3 +1,10 @@
+NEXT TODO:
+add enemy aggro if takes damage from range
+add enemy aggrod sight (higher sight range when has aggro)
+add social aggro (if nearby allies, alert them and cause aggro).
+
+
+
 Music playing
 Straight to Title Screen, press (A)
 

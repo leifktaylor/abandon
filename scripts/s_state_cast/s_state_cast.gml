@@ -1,3 +1,11 @@
+// Allow for crosshair control to continue
+if !ai_controlled
+{
+	s_get_input();
+	s_control_crosshair();	
+}
+
+// Handle sprites and returning to base state at end
 image_speed = stats_cast_speed;
 if image_index > image_number - 1
 {	
