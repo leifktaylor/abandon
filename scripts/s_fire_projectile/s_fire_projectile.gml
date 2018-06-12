@@ -9,7 +9,7 @@ var proj_creator = argument1;
 var proj_dir = argument2;
 var proj_force = argument3;
 
-var p = instance_create_depth(proj_creator.x, proj_creator.y, -1000, proj_o);
+var p = instance_create_depth(proj_creator.x, proj_creator.y - 4, -1000, proj_o);
 var xforce = lengthdir_x(proj_force, proj_dir);
 var yforce = lengthdir_y(proj_force, proj_dir);
 p.creator = owner;

@@ -33,6 +33,8 @@ sprite_base_width = sprite_width;
 // Movement
 dir = 0;
 spd = 1;
+spd_casting = .5;
+spd_base = spd;
 hspd = 0;
 vspd = 0;
 spd_wander = .25;
