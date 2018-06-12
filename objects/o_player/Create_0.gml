@@ -43,6 +43,7 @@ stats_def_phys = 1;
 stats_def_mag = 1;
 stats_knockback = 10;
 stats_attack_reach = 25;
+stats_cast_speed = .5;
 
 // Movement
 spd = 1;
@@ -77,6 +78,7 @@ faction = 99;
 
 // Player control
 // Key Bindings
+gamepad_index = 0;
 key_right = keyboard_check(ord("D"));
 key_left = keyboard_check(ord("A"));
 key_up = keyboard_check(ord("W"));

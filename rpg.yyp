@@ -463,6 +463,14 @@
             }
         },
         {
+            "Key": "461534f9-6c9a-40dc-98ab-2e14aa563230",
+            "Value": {
+                "id": "d27555b6-616a-44bc-af87-34017c52bcad",
+                "resourcePath": "scripts\\s_get_rstick_input\\s_get_rstick_input.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "469bc2ea-69f7-4606-bed8-242f7739320a",
             "Value": {
                 "id": "fab8a554-f965-485d-8760-e269f3eb34a9",
@@ -1637,6 +1645,7 @@
         "dbae8f71-a626-43f5-92c6-e027b047a1ef",
         "98357326-245f-4988-b770-5243ce3012b6",
         "52c35cd0-bcfd-4cb2-9f9e-ec26c79d97ce",
+        "461534f9-6c9a-40dc-98ab-2e14aa563230",
         "20b05948-9372-47c7-bc50-5e7e8bf90a51",
         "b636ad74-7ccc-4483-9be3-553091d58d68",
         "4dc72754-3564-4fdc-af05-43801b735850",

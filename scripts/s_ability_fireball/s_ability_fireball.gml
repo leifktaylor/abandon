@@ -17,4 +17,4 @@ with (proj_owner)
 
 // Create fireball object with impulse at dir
 var proj_o = s_fire_projectile(o_fireball_small, owner, aim_dir, 20);
-proj_o.range = proj_o.range + (aim_charge * .5);
+proj_o.range = proj_o.range + clamp((aim_charge * .5), 1, 100);

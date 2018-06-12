@@ -88,7 +88,7 @@ if (s_is_animation_frame(3))
 }
 
 
-s_get_input();
+s_get_input(gamepad_index);
 s_control_crosshair();
 _s_player_move(spd * .5);
 

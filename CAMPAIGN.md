@@ -3,6 +3,9 @@ add enemy aggro if takes damage from range
 add enemy aggrod sight (higher sight range when has aggro)
 add social aggro (if nearby allies, alert them and cause aggro).
 
+MAIN BUG:
+Why do subsequent projectiles take on the range of the existing one ???
+
 
 
 Music playing

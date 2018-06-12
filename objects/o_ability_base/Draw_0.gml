@@ -40,12 +40,9 @@ if instance_exists(owner)
 						script_execute(on_use_script, timer_charge, owner);
 						break;
 				}
-				timer_charge = 0;
 				owner.image_index = 0;
 				owner.sprite_index = owner.cast_sprites[owner.face];
 				owner.state = s_state_cast;
-				owner.spd = owner.spd_base;
-				return
 			}
 			owner.spd = owner.spd_base;
 			timer_charge = 0;	

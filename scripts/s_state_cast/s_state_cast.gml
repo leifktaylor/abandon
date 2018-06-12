@@ -1,7 +1,7 @@
 // Allow for crosshair control to continue
 if !ai_controlled
 {
-	s_get_input();
+	s_get_rstick_input(gamepad_index);
 	s_control_crosshair();	
 }
 
