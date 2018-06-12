@@ -11,7 +11,7 @@ stats_crit_chance = 0;
 image_speed = .1;
 target = o_player;
 spd = .4;
-spd_chase = 1.5;
+spd_chase = 2.0;
 
 // Visuals (required)
 movement_sprites = [s_slime0, s_slime0, s_slime0, s_slime0];
@@ -28,7 +28,7 @@ gambits[0, 1] = s_ga_attack;
 // sight / targetting
 state_attack = s_ai_attack_normal;
 sight = 128;
-sight_attack_range = 50;
+sight_attack_range = 80;
 target_x = 0;
 target_y = 0;
 target_o = noone;

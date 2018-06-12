@@ -399,6 +399,14 @@
             }
         },
         {
+            "Key": "3db058da-a28d-4218-a801-8e085eece1a1",
+            "Value": {
+                "id": "86245a66-0353-46e0-9c9b-4e349d4664fb",
+                "resourcePath": "scripts\\s_disable_combat_mode\\s_disable_combat_mode.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "3f222850-d110-4457-9dc1-c4d0e12c6433",
             "Value": {
                 "id": "478833e6-d6aa-41e6-8c59-c8a5f5972a8b",
@@ -547,6 +555,14 @@
             "Value": {
                 "id": "e9481b1c-6167-4f01-ae71-5149859b6050",
                 "resourcePath": "scripts\\s_get_face\\s_get_face.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "507ee0c9-e311-4c89-b26c-7254a8b1a0cc",
+            "Value": {
+                "id": "1676826b-cb0e-4a3e-8607-32831e3b40db",
+                "resourcePath": "scripts\\s_enable_combat_mode\\s_enable_combat_mode.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -700,6 +716,14 @@
                 "id": "2021e5a6-a62b-4c85-8294-851463e1f9a6",
                 "resourcePath": "objects\\o_crosshair\\o_crosshair.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "68a4a72a-5d00-45c5-bdd6-8850704fe5a5",
+            "Value": {
+                "id": "4a0a6a9a-95b4-4c93-95f7-6abd7b0a9f2b",
+                "resourcePath": "views\\68a4a72a-5d00-45c5-bdd6-8850704fe5a5.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -1656,6 +1680,8 @@
         "658109c2-65c8-43bc-8d1b-2478c5da62ef",
         "5de49602-2f80-48c3-89be-8af342e7c4e5",
         "938a419b-1d91-4191-98a9-4aecf647a8ca",
+        "507ee0c9-e311-4c89-b26c-7254a8b1a0cc",
+        "3db058da-a28d-4218-a801-8e085eece1a1",
         "5f9f07fb-c249-405d-9680-c73ef0dd04cb",
         "b40708d0-df4b-481e-b2f1-115e6c8f4b92",
         "66e74df3-d2d5-4ba7-b0e3-c57aafc3b3f2",

@@ -2,6 +2,9 @@
 self_o = argument0;
 other_o = argument1;
 
+// Initiate aggro on dealer of damage, if not aggrod
+s_enable_combat_mode(other_o);	
+
 // Calculate if we crit or not
 var crit_multi;
 var rolled_crit;

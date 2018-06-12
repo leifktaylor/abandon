@@ -2,3 +2,4 @@
 timer_wander = timer_wander_max;
 target_x = random(room_width);
 target_y = random(room_height);
+s_disable_combat_mode(id);

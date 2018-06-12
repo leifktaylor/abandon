@@ -10,7 +10,8 @@
         "4135465d-4b40-4cd9-ae4c-b170d260e062",
         "d2f99044-8383-4209-80b7-1e237225c5dc",
         "e534a2c4-6196-43b1-8bbb-8f4b660fdbf5",
-        "2862530f-7656-41a8-a86d-8abc5c57f97e"
+        "2862530f-7656-41a8-a86d-8abc5c57f97e",
+        "68a4a72a-5d00-45c5-bdd6-8850704fe5a5"
     ],
     "filterType": "GMScript",
     "folderName": "gambits",

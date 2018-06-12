@@ -85,7 +85,9 @@ state_attack_timer_max = 50;
 state_attack_timer = state_attack_timer_max;
 
 // sight / targetting
-sight = 128;
+sight_base = 128;
+sight = sight_base;
+sight_combat = 800;
 target_x = 0;
 target_y = 0;
 target_o = noone;

@@ -15,6 +15,9 @@ aim_type = "line" // line, location, self
 on_charge_script = s_charge_line_ability;
 on_use_script = s_ability_fireball; // s_ability_fireball takes a dir, and owner stats
 
+//init stats
+level = 1;
+
 // sounds
 on_use_sound = snd_null;
 on_charge_sound = snd_null;

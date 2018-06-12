@@ -14,9 +14,13 @@ if owner.rxaxis == 0 and owner.ryaxis == 0
 	dir = point_direction(0, 0, owner.rxaxis, owner.ryaxis);		
 }
 
-xx = lengthdir_x(clamp(timer_charge * 2, 20, 200), dir);
-yy = lengthdir_y(clamp(timer_charge * 2, 20, 200), dir);
+xx = lengthdir_x(clamp(timer_charge * 3, 20, 400), dir);
+yy = lengthdir_y(clamp(timer_charge * 3, 20, 400), dir);
 
-draw_line(owner.x, owner.y, owner.x + xx, owner.y + yy);
-
+// draw_line(owner.x, owner.y, owner.x + xx, owner.y + yy);
+draw_set_alpha(.5);
+draw_set_color(owner.sprite_hue);
+draw_arrow(owner.x, owner.y, owner.x + xx, owner.y + yy, 10);
+draw_set_color(c_white);
+draw_set_alpha(1);
 // audio_play_sound(snd_beep, 100, false);
