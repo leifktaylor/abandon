@@ -3,16 +3,26 @@
 // Move game object
 _s_player_move(spd);
 
-
+// Handle sprites depending on right and left stick interaction
 if (len == 0)
 {
-	image_index = sprite_image_index_base;
-	image_speed = 0;
+	if (rxaxis != 0 or ryaxis != 0)
+	{
+		// If not moving, but using the right stick
+		face = s_get_face(point_direction(0, 0, rxaxis, ryaxis));
+		sprite_index = s_get_movement_sprite(face)
+	} else {
+		// If we're not moving, and not moving the right stick
+		image_index = sprite_image_index_base;
+		image_speed = 0;
+	}
 } else {
 	if (rxaxis != 0 or ryaxis != 0)
 	{
+		// If we're moving and using the right stick
 		face = s_get_face(point_direction(0, 0, rxaxis, ryaxis));
 	} else {
+		// If we're moving and not using the right stick
 		face = s_get_face(dir);
 	}
 	sprite_index = s_get_movement_sprite(face)

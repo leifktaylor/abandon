@@ -19,9 +19,12 @@ stats_def_phys = 1;
 stats_def_mag = 1;
 stats_knockback = 10;
 stats_attack_reach = 20;
-
+stats_cast_speed = .2;
 
 // Sprites / Image
+movement_sprites = [s_null, s_null, s_null, s_null];
+attack_sprites = [s_null, s_null, s_null, s_null];
+cast_sprites = [s_null, s_null, s_null, s_null];
 sprite_image_speed = .5; 
 sprite_image_index_base = 0;
 sprite_shadow = s_player_shadow;

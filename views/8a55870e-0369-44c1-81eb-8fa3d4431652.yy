@@ -6,7 +6,8 @@
     "children": [
         "5f9f07fb-c249-405d-9680-c73ef0dd04cb",
         "a8c4d81e-acf6-467d-b65f-3448bd55034c",
-        "002dda7f-fc7f-405c-af61-fd31caeadae3"
+        "002dda7f-fc7f-405c-af61-fd31caeadae3",
+        "64046144-f6e9-4c2c-abde-ca669b47f8a7"
     ],
     "filterType": "GMScript",
     "folderName": "abilities",

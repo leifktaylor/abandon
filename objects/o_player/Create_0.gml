@@ -67,6 +67,7 @@ timer_transition = 10;
 // Visuals (required)
 movement_sprites = [s_player_right, s_player_up, s_player_left, s_player_down];
 attack_sprites = [s_player_attack_right, s_player_attack_up, s_player_attack_left, s_player_attack_down];
+cast_sprites = [s_player_cast_right, s_player_cast_up, s_player_cast_left, s_player_cast_down];
 sprite_image_speed = .5; 
 sprite_image_index_base = 0;
 sprite_shadow = s_player_shadow;
