@@ -43,7 +43,7 @@ stats_def_phys = 1;
 stats_def_mag = 1;
 stats_knockback = 10;
 stats_attack_reach = 25;
-stats_cast_speed = .5;
+stats_cast_speed = .2;
 
 // Movement
 spd = 1;

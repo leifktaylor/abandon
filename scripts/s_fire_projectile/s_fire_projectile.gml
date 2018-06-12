@@ -17,4 +17,4 @@ with (p)
 {
 	physics_apply_impulse(x, y, xforce, yforce);	
 }
-return proj_o
+return p
