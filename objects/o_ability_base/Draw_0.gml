@@ -12,6 +12,10 @@ if instance_exists(owner)
 				// Play sound effect if beginning the charge/aim
 				if timer_charge == 0
 				{
+					with (owner)
+					{
+						s_sprint_reset();
+					}
 					audio_play_sound(on_charge_sound, 100, false);	
 				}
 				script_execute(on_charge_script);
