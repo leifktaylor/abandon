@@ -5,19 +5,19 @@
     "name": "o_rock2",
     "eventList": [
         {
-            "id": "75dd33f6-bcdb-4dd2-ad57-9bd5e2eed483",
+            "id": "e57e8edd-bf1f-4872-ba48-50513471f453",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 3,
+            "eventtype": 0,
             "m_owner": "418d3424-1d3d-4337-8b24-3fb0c11db205"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "09fd259c-2aaa-4ce5-a696-8f2fabb7bd4d",
+    "parentObjectId": "004dcb51-ae3c-47e3-8d02-821d10c7ec71",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0,

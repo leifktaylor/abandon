@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "004dcb51-ae3c-47e3-8d02-821d10c7ec71",
+            "Value": {
+                "id": "976f370f-979f-4814-87cd-80b29f9a80a1",
+                "resourcePath": "objects\\o_rock_parent\\o_rock_parent.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0079d26f-de3d-4c74-bacf-715d37841cb4",
             "Value": {
                 "id": "d101fde8-c2d8-4c81-b5b9-eb335ee7afaf",
@@ -483,6 +491,14 @@
             "Value": {
                 "id": "d27555b6-616a-44bc-af87-34017c52bcad",
                 "resourcePath": "scripts\\s_get_rstick_input\\s_get_rstick_input.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "462cce89-23eb-4578-b5b0-6ccb437bb38e",
+            "Value": {
+                "id": "4b1e3d1b-0b5d-45fb-b6db-07cb2fae9220",
+                "resourcePath": "scripts\\s_fade_in_and_out_fx\\s_fade_in_and_out_fx.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1683,6 +1699,7 @@
         "0409d5f0-e9ed-4cf7-a54b-5b902a2f1094",
         "a7b5d741-a597-4d6b-8004-06648ceaeae1",
         "dbae8f71-a626-43f5-92c6-e027b047a1ef",
+        "462cce89-23eb-4578-b5b0-6ccb437bb38e",
         "98357326-245f-4988-b770-5243ce3012b6",
         "52c35cd0-bcfd-4cb2-9f9e-ec26c79d97ce",
         "461534f9-6c9a-40dc-98ab-2e14aa563230",

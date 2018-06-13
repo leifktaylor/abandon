@@ -13,7 +13,19 @@ target = o_player;
 spd = .4;
 spd_chase = 2.0;
 
+// Slime visuals (fade in and out)
+stall_delay = 70;
+alpha_fading = true;
+alpha_switch = 0;
+alpha_max = 1;
+alpha_min = 0;
+alpha_timer_max_rnd = 500;
+alpha_timer = random_range(100, alpha_timer_max_rnd);
+
 // Visuals (required)
+image_blend = make_color_rgb(20, 20, 60);
+sprite_attack_image_blend = make_color_rgb(255, 20, 20);
+sprite_image_blend = image_blend;
 movement_sprites = [s_slime0, s_slime0, s_slime0, s_slime0];
 attack_sprites = [s_slime0, s_slime0, s_slime0, s_slime0];
 

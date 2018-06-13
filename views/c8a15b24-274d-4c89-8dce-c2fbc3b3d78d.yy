@@ -6,7 +6,8 @@
     "children": [
         "57caf0a6-e62a-4033-bdb2-167e5fad61e2",
         "4d3c7a83-e567-4b4b-b460-f687df7c4945",
-        "418d3424-1d3d-4337-8b24-3fb0c11db205"
+        "418d3424-1d3d-4337-8b24-3fb0c11db205",
+        "004dcb51-ae3c-47e3-8d02-821d10c7ec71"
     ],
     "filterType": "GMObject",
     "folderName": "doodads",
