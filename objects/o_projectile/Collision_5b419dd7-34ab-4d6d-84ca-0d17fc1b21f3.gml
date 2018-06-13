@@ -10,6 +10,7 @@ if instance_exists(other)
 		s_deal_damage(creator, other);
 		with (other)
 		{
+			s_color_object_fx(id, c_red, 10);
 			physics_apply_impulse(x, y, xforce, yforce);
 		}
 		if (destroy_on_impact)

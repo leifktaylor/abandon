@@ -13,6 +13,9 @@ target_y = 0;
 // sprites
 movement_sprites = [spr_firefly, spr_firefly, spr_firefly, spr_firefly];
 
+// firefly pigment
+timer_pigment = random_range(100, 500);
+
 //
 debug_messages = false;
 sight = 0;
