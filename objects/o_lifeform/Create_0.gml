@@ -21,6 +21,9 @@ stats_knockback = 10;
 stats_attack_reach = 20;
 stats_cast_speed = .2;
 
+// Statuses
+statuses = [noone, noone, noone, noone, noone, noone, noone, noone, noone, noone];
+
 // Sprites / Image
 movement_sprites = [s_null, s_null, s_null, s_null];
 attack_sprites = [s_null, s_null, s_null, s_null];
