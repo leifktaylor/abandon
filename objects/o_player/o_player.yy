@@ -106,7 +106,7 @@
             "varType": 3
         },
         {
-            "id": "a15f3d97-c165-4969-9a23-fc097eb07343",
+            "id": "e93c83cc-80ae-4830-bb0c-d76caa94522e",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -116,7 +116,7 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "0",
-            "varName": "variable_name",
+            "varName": "player_number",
             "varType": 0
         }
     ],

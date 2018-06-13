@@ -7,7 +7,7 @@ if instance_exists(ally_o)
 	image_speed = ally_o.image_speed;
 	
 	// Move to target if we're not already too close
-	var max_proximity = 50;
+	var max_proximity = 100;
 	if (point_distance(x, y, ally_o.x, ally_o.y) > max_proximity)
 	{
 		// Move to target ally

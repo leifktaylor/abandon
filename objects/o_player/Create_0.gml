@@ -7,6 +7,7 @@ event_inherited();
 sight = 200;
 
 // Init
+player_number = 0;
 key_left = 0;
 key_right = 0;
 key_up = 0;
@@ -65,13 +66,15 @@ timer_stun = 0;
 timer_dash = 0;
 timer_transition = 10;
 
-// Visuals (required)
+
+// Sprite_settings (required)
 movement_sprites = [s_player_right, s_player_up, s_player_left, s_player_down];
 attack_sprites = [s_player_attack_right, s_player_attack_up, s_player_attack_left, s_player_attack_down];
 cast_sprites = [s_player_cast_right, s_player_cast_up, s_player_cast_left, s_player_cast_down];
 sprite_image_speed = .5; 
 sprite_image_index_base = 0;
 sprite_shadow = s_player_shadow;
+
 
 // Faction (99 is player default faction)
 faction = 99;
@@ -83,6 +86,11 @@ key_right = keyboard_check(ord("D"));
 key_left = keyboard_check(ord("A"));
 key_up = keyboard_check(ord("W"));
 key_down = keyboard_check(ord("S"));
+
+// Skin
+skins = [make_color_rgb(200, 20, 120), make_color_rgb(20, 200, 120), make_color_rgb(20, 80, 200), make_color_rgb(100, 10, 200)]
+image_blend = skins[player_number]
+sprite_image_blend = image_blend;
 
 // Hud
 show_health_bar = true;

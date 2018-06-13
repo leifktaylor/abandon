@@ -14,6 +14,7 @@ phy_position_y += vspd;
 
 // Create Dash FX
 var dash_fx_o = instance_create_depth(x, y, depth, o_fx_dash);
+dash_fx_o.image_blend = sprite_image_blend;
 dash_fx_o.sprite_index = sprite_index;
 dash_fx_o.image_index = image_index;
 
