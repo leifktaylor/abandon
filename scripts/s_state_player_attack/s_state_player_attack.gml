@@ -42,6 +42,7 @@ if (s_is_animation_frame(2))
 	var attack_animation_o = instance_create_depth(ax, ay, anim_depth, o_weapon_animation);
 	attack_animation_o.dir = anim_dir;
 	attack_animation_o.image_angle = anim_dir + 45;
+	attack_animation_o.owner = id;
 }
 
 // Handle player animation
