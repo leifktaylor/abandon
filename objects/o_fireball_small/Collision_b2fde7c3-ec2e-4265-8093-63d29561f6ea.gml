@@ -4,8 +4,11 @@ if instance_exists(other)
 {
 	if (other.id != creator)
 	{
-		// Apply burning status effect
-		s_inflict_status(other, o_status_burning)	
+		// Apply burning status effect 50% of the time
+		if irandom_range(1, 2) == 1
+		{
+			s_inflict_status(other, o_status_burning)	
+		}
 		
 		// Do damage knockback etc
 		var dir = point_direction(0, 0, phy_speed_x, phy_speed_y);
