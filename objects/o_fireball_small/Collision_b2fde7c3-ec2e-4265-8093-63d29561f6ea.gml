@@ -20,6 +20,8 @@ if instance_exists(other)
 			s_color_object_fx(id, c_red, 10);
 			physics_apply_impulse(x, y, xforce, yforce);
 		}
+		
+		// Destroy projectile on impact
 		if (destroy_on_impact)
 		{
 			instance_destroy();	
