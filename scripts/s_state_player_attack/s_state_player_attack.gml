@@ -81,11 +81,7 @@ if (s_is_animation_frame(3))
 	var xx = lengthdir_x(stats_attack_reach, dmg_dir);
 	var yy = lengthdir_y(stats_attack_reach, dmg_dir);
 	show_debug_message("Creating Damage object");
-	var damage_o = instance_create_depth(x + xx, y + yy, depth, o_damage);	
-	damage_o.creator = id;
-	damage_o.damage = stats_atk_phys;
-	damage_o.knockback = stats_knockback;
-	damage_o.owner = id
+	s_create_damage_object(id, x + xx, y + yy, stats_atk_phys, stats_knockback, 1, false, 0);
 }
 
 

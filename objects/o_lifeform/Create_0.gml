@@ -21,6 +21,9 @@ stats_knockback = 10;
 stats_attack_reach = 20;
 stats_cast_speed = .2;
 
+//iFrames (invulnerability frames)
+iframes = noone;
+
 // Statuses
 statuses = [noone, noone, noone, noone, noone, noone, noone, noone, noone, noone];
 

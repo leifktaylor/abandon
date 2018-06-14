@@ -33,7 +33,11 @@ image_speed = sign(len) * sprite_image_speed;
 
 // Dash Key
 if (key_dash) {
+	s_iframes_activate(id, dash_length);
 	timer_dash = dash_length;
+	var dash_status = s_inflict_status(id, o_status_rush);
+	dash_status.duration = dash_length;
+	s_create_damage_object(id, x, y, stats_atk_phys, 50, dash_length * .75, true, 100);
 	state = s_move_dash;
 }
 

@@ -1,10 +1,25 @@
-NEXT TODO:
-add enemy aggro if takes damage from range
-add enemy aggrod sight (higher sight range when has aggro)
+TODOS:
+
+
+party leader system:
+	figure this one out, remember multiple players (if 2 players, but 4 player objects).
+	probably each lifeform_o will have a my_leader var, and my_leader will point to the instanceid of the object that is the leader.
+
+
+gambit finishes:
+	refactor sword attack ability to be a gambit, allow use by ai
+	finish gambit ai ability use interface (do on player objects to guarantee casting anim etc) / allow for charging?
+	add not_in_combat gambit GC, and follow_party_leader GA	
+	add party_leader_far_away GC
+	add ally_hp_less_pct_90/80/70/60/50 etc GC
+	add healing ability
+	add cast healing GA
+	add charge attack ability (uses iframes) and GA
+	
+
 add social aggro (if nearby allies, alert them and cause aggro).
 
-MAIN BUG:
-Why do subsequent projectiles take on the range of the existing one ???
+BUG : Projectile damages allies (that's no good)
 
 
 

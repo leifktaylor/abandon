@@ -4,4 +4,7 @@ damage = 0;
 knockback = 0;
 creator = noone;
 
-alarm[0] = 1;
+duration = 1;
+stick = false;
+
+stun_duration = 0;

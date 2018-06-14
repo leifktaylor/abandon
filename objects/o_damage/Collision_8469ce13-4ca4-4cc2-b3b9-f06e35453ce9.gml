@@ -17,6 +17,14 @@ if instance_exists(other) and instance_exists(creator)
 		// Deal damage
 		s_deal_damage(creator, other.id)
 		
+		
+		// STUN (THIS MUST BE REMOVED)
+		if stun_duration > 0
+		{
+			other.state = s_state_stall;
+			other.timer_stall = stun_duration;
+		}
+		
 		// Create exp object if target is killed
 		if (other.stats_hp_current <= 0)
 		{

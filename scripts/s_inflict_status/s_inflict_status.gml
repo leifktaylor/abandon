@@ -24,7 +24,7 @@ for (var i = 0; i < 10; i++)
 			status_instance.owner = target_lifeform
 			status_instance.statuses_index = i;
 			target_lifeform.statuses[i] = status_instance
-			return
+			return status_instance
 		}
 	} else {
 	// If we find an empty bucket in the statuses array, save that index number for later
@@ -38,6 +38,7 @@ if empty_index != false
 	status_instance.owner = target_lifeform
 	status_instance.statuses_index = empty_index;
 	target_lifeform.statuses[empty_index] = status_instance
+	return status_instance
 }
 // If we already have the maximum number of statuses allowed, do nothing
 show_debug_message("Lifeform already has maximum amount of status effects; doing nothing")

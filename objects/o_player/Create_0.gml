@@ -57,7 +57,7 @@ vspd = 0;
 len = 0;
 dir = 0;
 // Movement (special)
-dash_length = 30;
+dash_length = 20;
 animation_attack_speed = .8;
 spd_chase = spd * 2;
 

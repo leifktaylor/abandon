@@ -7,6 +7,12 @@
 self_o = argument0;
 other_o = argument1;
 
+// If target has iframes
+if instance_exists(other_o.iframes)
+{
+	return	
+}
+
 // Handle optional / default text color
 if argument_count > 3
 {
