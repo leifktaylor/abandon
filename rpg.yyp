@@ -823,6 +823,14 @@
             }
         },
         {
+            "Key": "7259d47d-6998-4b37-bcb4-b25b4a902dde",
+            "Value": {
+                "id": "1b084852-0815-45f8-8342-8062873e5c6d",
+                "resourcePath": "views\\7259d47d-6998-4b37-bcb4-b25b4a902dde.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "745bb713-f20b-43d0-a46d-bf710e4b7aa1",
             "Value": {
                 "id": "c62adad4-4463-49f2-9a7f-9ada6ae70747",
@@ -1111,6 +1119,14 @@
             }
         },
         {
+            "Key": "a008062f-96f6-4adf-ad96-e84b8767f029",
+            "Value": {
+                "id": "d746b1eb-fdf5-48c4-951a-5b135466aafc",
+                "resourcePath": "scripts\\s_deal_damage_flex\\s_deal_damage_flex.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "a1ea3ae3-b3c6-48fc-ad9f-d725b03b23c6",
             "Value": {
                 "id": "9f3de110-9456-48c9-8c86-a548ee862844",
@@ -1180,6 +1196,14 @@
                 "id": "38bb3472-c668-4168-a2bc-af77c91622be",
                 "resourcePath": "datafiles_yy\\spr_critter_firefly\\ea55048f-222c-4811-b4a1-e766d686c113.png.yy",
                 "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "a9f95363-c85a-43f4-91dc-4cbb288fbed8",
+            "Value": {
+                "id": "54a0761b-a9da-4d46-bb88-0fda3f89dae5",
+                "resourcePath": "views\\a9f95363-c85a-43f4-91dc-4cbb288fbed8.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -1380,6 +1404,14 @@
                 "id": "9526a763-b050-443e-8592-4a7db37a5162",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "ce94d612-61d0-4fb7-a93e-9ceabffab0d4",
+            "Value": {
+                "id": "94c873c4-509f-49e6-b3b2-6cde0c6962fd",
+                "resourcePath": "views\\ce94d612-61d0-4fb7-a93e-9ceabffab0d4.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -1746,6 +1778,7 @@
         "23c30e58-b75f-40a5-afca-36326f5544aa",
         "0409d5f0-e9ed-4cf7-a54b-5b902a2f1094",
         "a7b5d741-a597-4d6b-8004-06648ceaeae1",
+        "a008062f-96f6-4adf-ad96-e84b8767f029",
         "dbae8f71-a626-43f5-92c6-e027b047a1ef",
         "462cce89-23eb-4578-b5b0-6ccb437bb38e",
         "98357326-245f-4988-b770-5243ce3012b6",

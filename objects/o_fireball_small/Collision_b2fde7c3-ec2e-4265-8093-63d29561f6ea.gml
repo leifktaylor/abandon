@@ -11,7 +11,7 @@ if instance_exists(other)
 		var dir = point_direction(0, 0, phy_speed_x, phy_speed_y);
 		var xforce = lengthdir_x(knockback, dir);
 		var yforce = lengthdir_y(knockback, dir);
-		s_deal_damage(creator, other);
+		s_deal_damage_flex(other, 3, c_orange);
 		with (other)
 		{
 			s_color_object_fx(id, c_red, 10);
